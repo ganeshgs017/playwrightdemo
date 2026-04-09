@@ -1,0 +1,4 @@
+com\pages\LoginPage.class
+com\utils\ConfigProperties.class
+com\utils\JSONData.class
+com\utils\BaseClass.class

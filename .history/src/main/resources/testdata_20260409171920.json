@@ -1,0 +1,17 @@
+{
+  "login": {
+    "validuser": {
+      "firstname": "ganesh123",
+      "lastname": "s",
+      "email": "ggenggge@gmail.com",
+      "password": "pass@123"
+    },
+    "invalidUser": {
+      "username": "wrong",
+      "password": "wrong123"
+    }
+  },
+  "search": {
+    "product": "laptop"
+  }
+}

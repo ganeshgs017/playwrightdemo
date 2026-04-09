@@ -1,0 +1,15 @@
+{
+  "login": {
+    "validUser": {
+      "firstname": "ganesh123",
+      "password": "pass123"
+    },
+    "invalidUser": {
+      "username": "wrong",
+      "password": "wrong123"
+    }
+  },
+  "search": {
+    "product": "laptop"
+  }
+}
