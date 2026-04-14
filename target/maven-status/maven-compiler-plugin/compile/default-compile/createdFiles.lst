@@ -1,4 +1,5 @@
-com\pages\LoginPage.class
 com\utils\ConfigProperties.class
-com\utils\JSONData.class
+com\utils\JsonDataReader.class
+com\pages\LoginPage.class
+com\pages\SwitchingWindowPage.class
 com\utils\BaseClass.class

@@ -8,30 +8,33 @@ import com.google.gson.JsonParser;
 
 public class JsonDataReader {
 
-   private static JsonObject data;
+    private static JsonObject data;
 
-   static{
+    static {
 
-    try {
-        
-        String content = new String(Files.readAllBytes(Paths.get("src/main/resources/testdata.json")));
-        data = JsonParser.parseString(content).getAsJsonObject();
-    } catch (Exception e) {
-        
-        throw new RuntimeException("Failed to load JSON File: ",e);
-    }
-   }
+        try {
 
-   public static String get(String keypath){
+            String content = new String(Files.readAllBytes(Paths.get("src/main/resources/testdata.json")));
+            data = JsonParser.parseString(content).getAsJsonObject();
 
-    JsonObject current  = data;
-    String[] keyArray = keypath.split("\\.");
-    for(int i =  0; i<keyArray.length-1; i++){
-
-        current = current.getAsJsonObject(keyArray[i]);
+        } catch (Exception e) {
+            throw new RuntimeException("Failed Load Test Data : ", e);
+        }
 
     }
-    return current.get(keyArray[keyArray.length-1]).getAsString();
-   }
+
+    public static String get(String keypath) {
+
+        JsonObject current = data;
+
+        String[] keyArray = keypath.split("\\.");
+
+        for (int i = 0; i < keyArray.length - 1; i++) {
+            current = current.getAsJsonObject(keyArray[i]);
+        }
+
+        return current.get(keyArray[keyArray.length - 1]).getAsString();
+
+    }
 
 }

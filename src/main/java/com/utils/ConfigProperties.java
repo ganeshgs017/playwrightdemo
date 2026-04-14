@@ -5,25 +5,25 @@ import java.util.Properties;
 
 public class ConfigProperties {
 
-
     private static Properties prop;
 
-    static{
-
+    static {
         try {
-            
+
             FileInputStream fis = new FileInputStream("src/main/resources/config.properties");
-            prop =new Properties();
+            prop = new Properties();
             prop.load(fis);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
 
-    public static String get(String key){
+    public static String get(String key) {
 
         return prop.getProperty(key);
+
     }
 
 }

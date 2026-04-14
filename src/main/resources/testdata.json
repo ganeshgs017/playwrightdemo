@@ -1,15 +1,13 @@
 {
-  "login": {
-    "validUser": {
+  "login":{
+    "validuser":{
       "username": "Admin",
-      "password": "admin123"
-    },
-    "invalidUser": {
-      "username": "wrong",
-      "password": "wrong123"
+      "password": "admin123",
+      "selectuser":"admin",
+      "employee":"Pradeep",
+      "addusername":"pradeep",
+      "userpassword":"admin123"
     }
-  },
-  "search": {
-    "product": "laptop"
   }
+
 }
