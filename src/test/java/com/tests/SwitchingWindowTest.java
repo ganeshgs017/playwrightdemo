@@ -16,7 +16,7 @@ public class SwitchingWindowTest extends BaseClass{
 
 
     private SwitchingWindowPage switchpage;
-
+    
 
     @BeforeMethod
     public void launchdemobrowser(){

@@ -1,0 +1,180 @@
+# Created at 2026-04-16T22:26:55.404
+node:internal/modules/cjs/loader:1249
+
+# Created at 2026-04-16T22:26:55.405
+  const err = new Error(message);
+
+# Created at 2026-04-16T22:26:55.405
+              ^
+
+# Created at 2026-04-16T22:26:55.406
+
+
+# Created at 2026-04-16T22:26:55.407
+Error: Cannot find module './../../package.json'
+
+# Created at 2026-04-16T22:26:55.407
+Require stack:
+
+# Created at 2026-04-16T22:26:55.408
+- C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\utils\userAgent.js
+
+# Created at 2026-04-16T22:26:55.408
+- C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\utils\index.js
+
+# Created at 2026-04-16T22:26:55.409
+- C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\cli\programWithTestStub.js
+
+# Created at 2026-04-16T22:26:55.409
+- C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\cli.js
+
+# Created at 2026-04-16T22:26:55.410
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+
+# Created at 2026-04-16T22:26:55.410
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+
+# Created at 2026-04-16T22:26:55.411
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+
+# Created at 2026-04-16T22:26:55.411
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+
+# Created at 2026-04-16T22:26:55.412
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+
+# Created at 2026-04-16T22:26:55.412
+    at require (node:internal/modules/helpers:141:16)
+
+# Created at 2026-04-16T22:26:55.413
+    at getPlaywrightVersion (C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\utils\userAgent.js:91:54)
+
+# Created at 2026-04-16T22:26:55.413
+    at HarTracer.stop (C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\server\har\harTracer.js:417:50)
+
+# Created at 2026-04-16T22:26:55.414
+    at Tracing.abort (C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\server\trace\recorder\tracing.js:251:21)
+
+# Created at 2026-04-16T22:26:55.414
+    at CRBrowserContext._didCloseInternal (C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\server\browserContext.js:199:18) {
+
+# Created at 2026-04-16T22:26:55.415
+  code: 'MODULE_NOT_FOUND',
+
+# Created at 2026-04-16T22:26:55.415
+  requireStack: [
+
+# Created at 2026-04-16T22:26:55.416
+    'C:\\Users\\ganes\\AppData\\Local\\Temp\\playwright-java-13527597963818494117\\package\\lib\\utils\\userAgent.js',
+
+# Created at 2026-04-16T22:26:55.416
+    'C:\\Users\\ganes\\AppData\\Local\\Temp\\playwright-java-13527597963818494117\\package\\lib\\utils\\index.js',
+
+# Created at 2026-04-16T22:26:55.416
+    'C:\\Users\\ganes\\AppData\\Local\\Temp\\playwright-java-13527597963818494117\\package\\lib\\cli\\programWithTestStub.js',
+
+# Created at 2026-04-16T22:26:55.416
+    'C:\\Users\\ganes\\AppData\\Local\\Temp\\playwright-java-13527597963818494117\\package\\cli.js'
+
+# Created at 2026-04-16T22:26:55.417
+  ]
+
+# Created at 2026-04-16T22:26:55.417
+}
+
+# Created at 2026-04-16T22:26:55.417
+
+
+# Created at 2026-04-16T22:26:55.417
+Node.js v22.11.0
+
+# Created at 2026-04-16T22:26:55.418
+node:internal/modules/cjs/loader:1249
+
+# Created at 2026-04-16T22:26:55.418
+  const err = new Error(message);
+
+# Created at 2026-04-16T22:26:55.418
+              ^
+
+# Created at 2026-04-16T22:26:55.419
+
+
+# Created at 2026-04-16T22:26:55.419
+Error: Cannot find module './../../package.json'
+
+# Created at 2026-04-16T22:26:55.419
+Require stack:
+
+# Created at 2026-04-16T22:26:55.420
+- C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\utils\userAgent.js
+
+# Created at 2026-04-16T22:26:55.420
+- C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\utils\index.js
+
+# Created at 2026-04-16T22:26:55.420
+- C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\cli\programWithTestStub.js
+
+# Created at 2026-04-16T22:26:55.421
+- C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\cli.js
+
+# Created at 2026-04-16T22:26:55.421
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+
+# Created at 2026-04-16T22:26:55.421
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+
+# Created at 2026-04-16T22:26:55.421
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+
+# Created at 2026-04-16T22:26:55.421
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+
+# Created at 2026-04-16T22:26:55.422
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+
+# Created at 2026-04-16T22:26:55.422
+    at require (node:internal/modules/helpers:141:16)
+
+# Created at 2026-04-16T22:26:55.423
+    at getPlaywrightVersion (C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\utils\userAgent.js:91:54)
+
+# Created at 2026-04-16T22:26:55.423
+    at HarTracer.stop (C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\server\har\harTracer.js:417:50)
+
+# Created at 2026-04-16T22:26:55.424
+    at Tracing.abort (C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\server\trace\recorder\tracing.js:251:21)
+
+# Created at 2026-04-16T22:26:55.425
+    at CRBrowserContext._didCloseInternal (C:\Users\ganes\AppData\Local\Temp\playwright-java-13527597963818494117\package\lib\server\browserContext.js:199:18) {
+
+# Created at 2026-04-16T22:26:55.425
+  code: 'MODULE_NOT_FOUND',
+
+# Created at 2026-04-16T22:26:55.425
+  requireStack: [
+
+# Created at 2026-04-16T22:26:55.426
+    'C:\\Users\\ganes\\AppData\\Local\\Temp\\playwright-java-13527597963818494117\\package\\lib\\utils\\userAgent.js',
+
+# Created at 2026-04-16T22:26:55.426
+    'C:\\Users\\ganes\\AppData\\Local\\Temp\\playwright-java-13527597963818494117\\package\\lib\\utils\\index.js',
+
+# Created at 2026-04-16T22:26:55.426
+    'C:\\Users\\ganes\\AppData\\Local\\Temp\\playwright-java-13527597963818494117\\package\\lib\\cli\\programWithTestStub.js',
+
+# Created at 2026-04-16T22:26:55.427
+    'C:\\Users\\ganes\\AppData\\Local\\Temp\\playwright-java-13527597963818494117\\package\\cli.js'
+
+# Created at 2026-04-16T22:26:55.427
+  ]
+
+# Created at 2026-04-16T22:26:55.428
+}
+
+# Created at 2026-04-16T22:26:55.428
+
+
+# Created at 2026-04-16T22:26:55.429
+Node.js v22.11.0
+

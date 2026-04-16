@@ -128,6 +128,17 @@ public class BaseClass {
         }
     }
 
+   
+    public void teardowm(){
+
+        tlpage.get().close();
+        tlbrowsercontext.get().close();
+        tlbrowser.get().close();
+        tlplaywright.get().close();
+
+
+    }
+
     public Page getPage() {
 
         return tlpage.get();
